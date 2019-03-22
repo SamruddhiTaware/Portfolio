@@ -63,7 +63,7 @@
     }
 
     .row{
-        padding-top: 50px;
+        padding-top: 14%;
         margin: auto;
         width: 90%;
         margin-bottom: 10%;
@@ -137,8 +137,7 @@
     }
 
     .ProjectLayout{
-        margin-left: 350px;
-        margin-right: 450px;
+        margin-left: 33%;
         margin-top: 100px;
         text-border: #71CCC6;
 

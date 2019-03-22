@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Banco Do Brasil </title>
+        <link rel = "stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="top_navigation">
+            <a class= "top_navigation" href="index.html" style="text-decoration: none">
+                <h1 id="header" style="font-family: Exotc350 Bd BT"><span style="color: #132A5D; word-spacing: 5px" >
+                    Samruddhi Taware</span></h1></a>
+        </div>
+
+        <div class="ProjectLayout" style="alignment: center">
+            <h1><span class="ProjectHeading" style="margin-left: 160px"> Banco Do Brasil </span> </h1>
+        </div>
+
+        <div class="row3" style="margin-left: 150px">
+            <div class="column" style="background-color: lightgrey" >
+                <h2 align="center" style="color: black"> Duration </h2>
+                <h5 align="center"> September 2017 to December 2017</h5>
+            </div>
+
+            <div class="column" style="background-color: lightgrey;" >
+                <h2 align="center" style="color: black"> Focus</h2>
+                <h5 align="center"> System Design, User Analysis </h5>
+            </div>
+
+            <div class="column" style="background-color: lightgrey;" >
+                <h2 align="center" style="color: black"> Tools </h2>
+                <h5 align="center"> Surveys(Interviews), Visio, Paper Prototype </h5>
+            </div>
+            <br><br>
+        </div>
+        <br><br><br>
+
+        <div class="problem">
+        <h2> The Problem </h2>
+        <p style="color: black"> The problem with the existing system is the constant back and forth of
+            e-mails and opening of attachments. Once the client sends the Account Opening Kit and required <br>
+            documentation, it is constantly e-mailed between the bank’s front and back office for authorization.
+            It is important to note that clients do not always send the complete <br> account opening kit or necessary
+            documentation. Sometimes required fields are left blank, ID’s are missing, signatures are ineligible,
+            or documents are expired. <br> This creates extra layers to the process that involve even more
+            e-mails between departments to request pending or missing information.
+            Remember, the front and back <br> office mostly deal with issues pertaining to existing accounts which
+            constitute a bulk of their daily activities. Account openings are just a small percentage of what the <br>
+            bank does. E-mails can very easily be lost or forgotten as they pile on top of one another.
+            This creates an operational risk in which account opening requests and documentation <br> may be delayed,
+            neglected, and possibly lost due to a lack of a proper tracking system.
+        </p>
+            <h2> Proposed Solution </h2>
+            <p style="color: black"> Proposed solution was the development of a workflow system that will transmit
+                and track the flow of documentation and communication related to the account opening process.<br>
+                The system
+                will be web based, accessible only through the bank’s intranet, and used internally by the
+                departments that process account opening requests. Clients will not have <br> access to this system.<br><br>
+                Each request for a new account will generate a ticket with a unique identifying number. This
+                ticket will be used to transfer information and documentation back and forth <br> between the front
+                and back office. They will be able to designate which of the four departments to send the ticket
+                to (Corporate, CIAS, Compliance, or Management). <br> Each department – with the exception of Management
+                – will have a checklist with requirements that need to be fulfilled before the ticket can move forward.
+                Whenever <br> an action is required due to pending, incomplete, or incorrect information, the system
+                will automatically generate notifications to those responsible so that they can <br> attend to the issue.<br><br>
+                This will ensure that anything related to account opening will be found in one location with
+                historical data that shows the flow or stoppage of flow in any particular instance <br> in the process.
+                Execution dates and times will be maintained to assist with the tracking.
+            </p>
+            <h2> Post Interview Analysis </h2>
+            <p style="color: black"> After conducting an interview through a video conference with all of the stakeholders
+                involved including: Corporate, CIAS, Compliance, and IT. Follow-up phone interviews <br> were conducted with
+                Corporate, CIAS, and Management to ask new questions or to clarify questions asked during the video conference.
+                Below are the systems requirements <br> that were discussed:
+
+            <ul style="color: black">
+                <li> Corporate will be responsible for opening tickets </li>
+                <li> Corporate will be responsible for uploading documents</li>
+                <li> Corporate, CIAS, and Compliance should be able to edit and submit the tickets also they should
+                    have function to <br> return the tickets if more information is required </li>
+                <li> Corporate, CIAS, and Compliance should have the function to return tickets if more information is required </li>
+                <li> Corporate, CIAS, Compliance, and Management should all be able to comment on the ticket to provide specific
+                    instructions </li>
+                <li> Corporate, CIAS, Compliance, and Management should all be able to view ticket history</li>
+                <li>Compliance will be responsible for sending ticket to management for approval</li>
+                <li> Management will approve or reject ticket</li>
+                <li> CIAS will close ticket</li>
+                <li> System should send a notification when an action is required to which department is responsible</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>
