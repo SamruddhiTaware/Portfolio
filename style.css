@@ -187,3 +187,7 @@
         font-size: large;
         margin-right: 50px;
     }
+
+    li{
+        margin-bottom: 8px;
+    }
